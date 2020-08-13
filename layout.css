@@ -1,7 +1,7 @@
 body{
-    --box-color: #FFFFF2;
-    --title-color:#4F86C6;
-    background: #41D3BD;
+    --box-color: #FFF;
+    --title-color:#9A52cc;
+    background: #fff;
 }
 .link{
     color: blue;
@@ -31,9 +31,10 @@ body{
 .box{
     background: var(--box-color);
     padding: .1em 0;
-    margin: 3em 0 0 0;
+    margin: 3.5em 0 0 0;
     position: relative;
-    border-top: solid 2px var(--title-color);
+    box-shadow: -1px 1px 1px 2px var(--title-color);
+    border-radius: 1em 0 0 0em/1em;
 }
 .box>li{
     list-style-type: square;
@@ -42,11 +43,16 @@ body{
     display: block;
     position: absolute;
     content: "";
-    top: -1.8em;
-    right: .2em;
+    width: 6.3em;
+    text-align: center;
+    top: -1.6em;
+    left: 1em;
     color: var(--title-color);
+    border-width: 0 0 2px 0;
+    border-radius: 1em 1em 1em 0/1em;
     font-weight: bolder;
     font-size: 1.3em;
+    box-shadow: -1px 1px 1px 2px var(--title-color);
 }
 #educate::before{
     content: "教育经历";
