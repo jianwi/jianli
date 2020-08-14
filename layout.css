@@ -19,23 +19,33 @@ body{
     align-items: center;
     font-weight: 500;
     line-height: 2em;
+    margin-bottom: 5em;
 }
 .about_me>.avatar{
     width: 8em;
     height: 9em;
+    display: flex;
+    align-items: center;
+}
+.about_me>.avatar>img{
+
 }
 .about_me>.content{
-    width: 40em;
+    width: 46em;
     display: grid;
     grid-template-columns: repeat(3, 33.333%);
 }
 .box{
     background: var(--box-color);
     padding: .1em 0;
-    margin: 3.5em 0 0 0;
+    margin: 3.6em 0 0 0;
     position: relative;
     box-shadow: -1px 1px 2px 2px var(--title-color);
     border-radius: 1em 2em 1em .3em/5em .1em .2em 3em;
+}
+.box p{
+    margin: .1em 0;
+    line-height: 1.65em;
 }
 .box::before{
     display: block;
@@ -96,10 +106,7 @@ body{
     padding: .6em;
     margin: 0 .6em;
 }
-.box p{
-    margin: .1em 0;
-    line-height: 1.5em;
-}
+
 .timeline>.content::before{
     content: "";
     position: absolute;
@@ -120,7 +127,7 @@ header{
     font-size: 1.8em;
     font-weight: 600;
     width: 5.8em;
-    margin: auto;
+    margin: .8em auto;
     border: double;
     border-width: 0 0 3px 0;
     border-radius: 4em 7em 3em 1em/6em 3em 8em 10em;
