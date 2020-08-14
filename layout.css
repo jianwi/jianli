@@ -2,6 +2,7 @@ body{
     --box-color: #FFF;
     --title-color:#9A52cc;
     background: #fff;
+    font-size: 1em;
 }
 .link{
     color: blue;
@@ -33,11 +34,8 @@ body{
     padding: .1em 0;
     margin: 3.5em 0 0 0;
     position: relative;
-    box-shadow: -1px 1px 1px 2px var(--title-color);
-    border-radius: 1em 0 0 0em/1em;
-}
-.box>li{
-    list-style-type: square;
+    box-shadow: -1px 1px 2px 2px var(--title-color);
+    border-radius: 1em 2em 1em .3em/5em .1em .2em 3em;
 }
 .box::before{
     display: block;
@@ -46,13 +44,13 @@ body{
     width: 6.3em;
     text-align: center;
     top: -1.6em;
-    left: 1em;
+    left: .8em;
     color: var(--title-color);
     border-width: 0 0 2px 0;
-    border-radius: 1em 1em 1em 0/1em;
+    border-radius: 2em 1em 1em 0/3em 1em 1em 1em;
     font-weight: bolder;
     font-size: 1.3em;
-    box-shadow: -1px 1px 1px 2px var(--title-color);
+    box-shadow: -1px 1px 3px 2px var(--title-color);
 }
 #educate::before{
     content: "教育经历";
@@ -61,16 +59,16 @@ body{
     content: "项目经历";
 }
 #work_experience::before{
-    content: "工作经历";
+    content: "实习经历";
 }
 #school_experience::before{
-    content: "校园经历";
+    content: "社团经历";
 }
 #skill::before{
     content: "个人技能";
 }
 #award::before{
-    content: "获奖经历";
+    content: "获奖情况";
 }
 .timeline{
     display: flex;
@@ -80,7 +78,7 @@ body{
     --line-height:1.5em;
     width: 8em;
     flex-basis: 8em;
-    font-size: .9em;
+    font-size: .8em;
     height: var(--line-height);
     background: black;
     color: #FFFFF2;
@@ -98,9 +96,9 @@ body{
     padding: .6em;
     margin: 0 .6em;
 }
-.timeline p{
+.box p{
     margin: .1em 0;
-    font-size: .9em;
+    line-height: 1.5em;
 }
 .timeline>.content::before{
     content: "";
@@ -111,4 +109,20 @@ body{
     height: .5em;
     border-radius: 50%;
     background: currentColor;
+}
+ul li{
+    list-style-type: square;
+    margin: .5em 0;
+}
+header{
+    text-align: center;
+    color: var(--title-color);
+    font-size: 1.8em;
+    font-weight: 600;
+    width: 5.8em;
+    margin: auto;
+    border: double;
+    border-width: 0 0 3px 0;
+    border-radius: 4em 7em 3em 1em/6em 3em 8em 10em;
+    box-shadow: 1px 1px 3px 1px crimson;
 }
