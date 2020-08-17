@@ -3,10 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>我的简历</title>
+    <style>
+        body{
+            width:100vw;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            font-size: 1.3em;
+            margin: 1em auto;
+        }
+        a.delete{
+            position: relative;
+        }
+        a.delete::before{
+            content: "";
+            position: absolute;
+            width: 130%;
+            height: .1em;
+            top: calc(50% - .1em);
+            left: -15%;
+            background: black;
+        }
+        ol>li{
+            list-style: upper-latin;
+        }
+
+    </style>
 </head>
 <body>
     <div>
-        
+        <ol>
+            <li>
+                        <a href="./f2e.html">精简版-简历</a>
+            </li>
+            <li>
+                <a href="" class="delete">花里胡哨版本</a>
+            </li>
+        </ol>
     </div>
 </body>
 </html>
