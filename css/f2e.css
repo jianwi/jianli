@@ -3,6 +3,8 @@
 .box{
     border: none;
     margin-top: 1.9em;
+    font-size: 1em;
+    font-family: "";
 }
 #other::before{
     content: "其他补充";
@@ -26,9 +28,14 @@
     border: 1px solid;
 }
 #project li:first-child{
-    margin: 1.3em 0;
+    margin-bottom: 1.3em;
 }
 header{
     width: 5em;
     border-radius: 5px;
+}
+ul li{
+    list-style-type: square;
+    margin: .5em -1em;
+
 }
