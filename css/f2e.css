@@ -1,0 +1,34 @@
+@import "layout.css";
+
+.box{
+    border: none;
+    margin-top: 1.9em;
+}
+#other::before{
+    content: "其他补充";
+}
+.timeline{
+    display: block;
+}
+.timeline .time{
+    display: none;
+    position: absolute;
+    right: 30px;
+}
+.box::before{
+    top: -1.1em;
+    left: -1em;
+}
+.about_me{
+    margin-bottom: 50px;
+}
+.body{
+    border: 1px solid;
+}
+#project li:first-child{
+    margin: 1.3em 0;
+}
+header{
+    width: 5em;
+    border-radius: 5px;
+}

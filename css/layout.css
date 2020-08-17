@@ -40,8 +40,6 @@ body{
     padding: .1em 0;
     margin: 3.6em 0 0 0;
     position: relative;
-    box-shadow: -1px 1px 2px 2px var(--title-color);
-    border-radius: 1em 2em 1em .3em/5em .1em .2em 3em;
 }
 .box p{
     margin: .1em 0;
@@ -56,11 +54,8 @@ body{
     top: -1.6em;
     left: .8em;
     color: var(--title-color);
-    border-width: 0 0 2px 0;
-    border-radius: 2em 1em 1em 0/3em 1em 1em 1em;
     font-weight: bolder;
     font-size: 1.3em;
-    box-shadow: -1px 1px 3px 2px var(--title-color);
 }
 #educate::before{
     content: "教育经历";
@@ -83,6 +78,7 @@ body{
 .timeline{
     display: flex;
     padding: 0em .6em;
+    position: relative;
 }
 .timeline>.time{
     --line-height:1.5em;
@@ -90,33 +86,18 @@ body{
     flex-basis: 8em;
     font-size: .8em;
     height: var(--line-height);
-    background: black;
-    color: #FFFFF2;
     text-align: center;
     line-height: var(--line-height);
-    border-radius: 10%/50%;
     align-self: center;
 }
 .timeline>.content{
     flex-basis: 42em;
     text-align: justify;
-    border: solid currentColor;
-    border-width: 0 0 0 1px;
     position: relative;
     padding: .6em;
     margin: 0 .6em;
 }
 
-.timeline>.content::before{
-    content: "";
-    position: absolute;
-    left: -.3em;
-    top: 46%;
-    width: .5em;
-    height: .5em;
-    border-radius: 50%;
-    background: currentColor;
-}
 ul li{
     list-style-type: square;
     margin: .5em 0;
@@ -130,6 +111,4 @@ header{
     margin: .8em auto;
     border: double;
     border-width: 0 0 3px 0;
-    border-radius: 4em 7em 3em 1em/6em 3em 8em 10em;
-    box-shadow: 1px 1px 3px 1px crimson;
 }
