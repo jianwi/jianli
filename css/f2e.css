@@ -39,3 +39,21 @@ ul li{
     margin: .5em -1em;
 
 }
+.files{
+    border:solid black;
+    border-width: 2px 0 0 0;
+    position: relative;
+}
+.files::before{
+    content: "附件 :";
+    position: absolute;
+    font-weight: 600;
+    font-size: 1.5em;
+    top: 1.1em;
+}
+.files section{
+    min-height: 100vh;
+}
+.files section img{
+    width: 100%;
+}
