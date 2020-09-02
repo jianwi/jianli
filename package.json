@@ -1,0 +1,25 @@
+{
+  "name": "jianli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jianwi/jianli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jianwi/jianli/issues"
+  },
+  "homepage": "https://github.com/jianwi/jianli#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
