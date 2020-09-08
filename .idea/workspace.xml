@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d97ac1a-48b0-4374-9ced-92c79267a1cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jianli.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/f2e.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/f2e.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/f2e.html" beforeDir="false" afterPath="$PROJECT_DIR$/f2e.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,6 +34,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,7 +87,9 @@
       <workItem from="1597289096911" duration="6952000" />
       <workItem from="1598968219438" duration="6000" />
       <workItem from="1598975090550" duration="646000" />
-      <workItem from="1599005114088" duration="4233000" />
+      <workItem from="1599005114088" duration="5275000" />
+      <workItem from="1599029161177" duration="88000" />
+      <workItem from="1599525036020" duration="2711000" />
     </task>
     <servers />
   </component>
