@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3d97ac1a-48b0-4374-9ced-92c79267a1cb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/f2e.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/f2e.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/f2e.html" beforeDir="false" afterPath="$PROJECT_DIR$/f2e.html" afterDir="false" />
     </list>
@@ -30,6 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -52,7 +52,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.f2e.html">
+    <configuration name="f2e.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jianli/f2e.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/jianli/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -61,6 +64,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.f2e.html" />
         <item itemvalue="JavaScript Debug.input.html" />
       </list>
     </recent_temporary>
@@ -89,7 +93,10 @@
       <workItem from="1598975090550" duration="646000" />
       <workItem from="1599005114088" duration="5275000" />
       <workItem from="1599029161177" duration="88000" />
-      <workItem from="1599525036020" duration="2711000" />
+      <workItem from="1599525036020" duration="2864000" />
+      <workItem from="1599744428419" duration="4677000" />
+      <workItem from="1599801733577" duration="860000" />
+      <workItem from="1599890776105" duration="2635000" />
     </task>
     <servers />
   </component>
