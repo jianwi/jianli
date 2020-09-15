@@ -9,7 +9,7 @@ body{
     font-family: "";
 }
 #other::before{
-    content: "其他补充";
+    content: "其他经历";
 }
 .timeline{
     display: block;
