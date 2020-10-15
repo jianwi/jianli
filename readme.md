@@ -1,5 +1,10 @@
 ## 使用html制作的简历
-如果您通过扫码来到此页面。不妨顺着这个线索，探索一下我的github吧!
+使用 html 做的简历。您可以点击下方的链接了解我。    
+如果您对我的技术感兴趣，欢迎通过邮箱和我联系。  
 
-[查看简历](https://jianwi.github.io/jianli/index.html)
+常用邮箱： [v@jianwi.cn](mailto:v@jianwi.cn)
 
+
+[前端简历](https://jianwi.github.io/jianli/f2e.html)
+
+[后端简历](https://jianwi.github.io/jianli/php.html)
