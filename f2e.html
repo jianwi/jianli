@@ -1,111 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>简历</title>
-  <link rel="stylesheet" href="css/f2e.css">
+    <meta charset="UTF-8">
+    <title>简历</title>
+    <link rel="stylesheet" href="css/f2e.css">
 </head>
 <body>
 <header>简历</header>
 <div class="container">
-  <div class="about_me">
-    <div class="avatar">
-      <img src="img/avatar2021.png" width="110px">
+    <div class="about_me">
+        <div class="avatar">
+            <img src="img/avatar2021.png" width="110px">
+        </div>
+        <div class="content">
+            <div>姓名：杜建军</div>
+            <div>年龄：21岁</div>
+            <div>电话：17899172010</div>
+            <div>邮箱：<a style="text-decoration: none" href="mailto:v@jianwi.cn"> v@jianwi.cn</a></div>
+            <div>博客：<span class="link">jialidun.vip</span></div>
+            <div>Github：<span class="link">github.com/jianwi</span></div>
+            <div>毕业学校：陕西科技大学</div>
+            <div>专业：高分子材料与工程</div>
+            <div>毕业时间：2021年6月</div>
+            <div>最高学历：本科</div>
+            <div>英语水平：CET-4</div>
+            <div>求职意向：WEB前端工程师</div>
+        </div>
     </div>
-    <div class="content">
-      <div>姓名：杜建军</div>
-      <div>年龄：21岁</div>
-      <div>电话：17899172010</div>
-      <div>学校：陕西科技大学</div>
-      <div>专业：高分子材料与工程</div>
-      <div>毕业时间：2021年6月</div>
-      <div>邮箱：<a style="text-decoration: none" href="mailto:v@jianwi.cn"> v@jianwi.cn</a></div>
-      <div>博客：<span class="link">jialidun.vip</span></div>
-      <div>Github：<span class="link">github.com/jianwi</span></div>
-      <div>英语水平：CET-4</div>
-      <div>求职意向：WEB前端工程师</div>
+    <div>
+        <section class="box" id="skill">
+            <ul>
+                <li>熟悉HTML5,CSS3,JavaScript,TypeScript</li>
+                <li>熟悉Vue，了解React</li>
+                <li>熟悉后端技术：php,python,nodejs,mysql</li>
+                <li>精通正则表达式</li>
+            </ul>
+        </section>
+        <section class="box" id="work_experience">
+            <ul>
+                <li>
+                    <p>
+                        <strong>公司：</strong>
+                        <strong>绿盟科技</strong>
+                    </p>
+                    <p>
+                        负责"绿盟云安全平台"的功能研发，独立完成了“扫描挂马网页恶意外链”的功能。将自动化测试技术与nodejs结合，与"挂马网页"对抗，实现监测其恶意脚本的行为，获取攻击者们想极力隐藏的恶意外链。<br/>
+                        学到了一些网络安全知识，自己的保密意识也有所提高。
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="box" id="project">
+            <ul>
+                <li>
+                    <strong>证书管理系统</strong>
+                    <div class="content">
+                        <p>
+                            简介：
+                            给“陕西高校网络思政中心”做的一套托管荣誉证书的系统，基于Vue,Element-ui,laravel-admin实现。支持导入表格文件批量生成唯一的电子证书，可通过web端查询和公众号回复消息查询。
+                           <br>
+                        </p>
+                        <p>
+                            源代码：
+                            <span class="link">github.com/jianwi/certificate_manage</span>
+                            上线链接：
+                            <span class="link">zs.jialidun.vip</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <strong>文献翻译工具</strong>
+                    <div class="content">
+                        <p>
+                            简介:
+                            基于 Vue3+Typescript。利用正则表达式处理文本，自动分句翻译。解决了从pdf中复制的文献格式错乱导致翻译结果不理想的问题。
+                        </p>
+                        <p>
+                            源代码：
+                            <span class="link">github.com/jianwi/tools-for-translating</span>
+                            上线链接：
+                            <span class="link">iwill.vip</span>
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <strong>校内代取快递小程序</strong>
+                    <div class="content">
+                        <p>
+                            简介:
+                            我负责实现从短信中获取快递公司名称和取件码的功能，主要用到正则表达式。
+                        </p>
+                        <p>
+                            微信小程序名称：
+                            <span>小树懒捎带</span>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="box" id="other">
+            <ul>
+                <li>作为队长参加"中国大学生计算机设计大赛"，获得西北赛二等奖</li>
+                <li>曾担任学校网络文化工作室的任负责人，期间开发过10多款web应用并上线</li>
+                <li>在淘宝出售"写正则表达式"服务，累计提供过200多次技术支持，并收获100%的好评</li>
+                <li>参与laravel8(php开发框架)文档的翻译并通过审核（<span class="link">learnku.com/users/48882</span>）</li>
+            </ul>
+        </section>
     </div>
-  </div>
-  <div>
-    <section class="box" id="skill">
-      <ul>
-        <li>熟悉HTML5,CSS3,JavaScript</li>
-        <li>熟悉Vue全家桶</li>
-        <li>了解浏览器的渲染机制及前端优化</li>
-        <li>熟悉后端技术：php语言,python语言,mysql</li>
-        <li>了解常用的数据结构和算法</li>
-        <li>精通正则表达式</li>
-      </ul>
-    </section>
-    <section class="box" id="work_experience">
-      <ul>
-        <li>
-          <p>
-            <strong>公司：</strong>
-            <strong>绿盟科技</strong>
-          </p>
-          <p>
-            负责"绿盟云安全平台"的开发． 将python爬虫与nodejs技术相结合，与"挂马网页"对抗。实现扫描出挂马网页的恶意外链<br/>
-            学到了一些web安全知识，对js脚本的监测有了一定研究。
-          </p>
-        </li>
-      </ul>
-    </section>
-    <section class="box" id="project">
-      <ul>
-        <li>
-          <strong>证书管理系统</strong>
-          <div class="content">
-            <p>
-             项目简介：
-              基于Vue, Element, laravel-admin 开发， 使用了cdn加速静态资源访问，解决了带宽限制．<br>
-            </p>
-            <p>
-              项目链接：
-              <span class="link">github.com/jianwi/certificate_manage</span>
-             上线链接：
-              <span class="link">zs.jialidun.vip</span>
-            </p>
-            <p>
-              成果：
-              现已成为“陕西省高校网络思政中心”官方证书管理系统，托管了近1万证书，最高每小时访问量达3000。
-            </p>
-          </div>
-        </li>
-        <li>
-          <strong>微信头像合成小程序</strong>
-          <p>
-            简介:
-            使用 uniapp(vue) 开发的微信小程序，基于 canvas 实现头像合成
-          </p>
-          <p>
-            项目链接：
-            <span class="link">github.com/jianwi/wx_avatar</span>
-          </p>
-          <p>
-              成果：
-            上线后，累计使用量达3000+,被两所高校购买
-          </p>
-        </li>
-      </ul>
-    </section>
-    <section class="box" id="other">
-      <ul>
-        <li>作为队长参加"中国大学生计算机设计大赛"，获得西北赛二等奖</li>
-        <li>在学校技术团队担任负责人，开发过10多款web应用并上线</li>
-        <li>在淘宝出售"写正则表达式"服务，累计获得200多次好评</li>
-        <li>在learnku技术社区,参与了laravel8(php开发框架)中文文档的翻译并通过审核</li>
-      </ul>
-    </section>
-  </div>
 </div>
 <div class="qrcode">
-  <img src="./img/qrcode.svg"  alt="">
+    <img src="./img/qrcode.svg" alt="">
 </div>
 <div class="files">
-<section>
-  <img src="./img/nsfocus.jpg" alt="">
-</section>
+    <section>
+        <img src="./img/nsfocus.jpg" alt="">
+    </section>
 </div>
 <script src="app.js"></script>
 </body>

@@ -29,9 +29,7 @@ body{
 .body{
     border: 1px solid;
 }
-#project li:first-child{
-    margin-bottom: 1.3em;
-}
+
 header{
     width: 5em;
     border-radius: 5px;
